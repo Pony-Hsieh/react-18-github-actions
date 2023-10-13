@@ -3,12 +3,17 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
   },
   "eslint.validate": [
     "javascript",
     "typescript",
     "javascriptreact",
     "typescriptreact",
+  ],
+  "stylelint.validate": [
+    "css",
+    "scss",
   ],
   "[html, css, scss, javascript, typescript, typescriptreact, yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
