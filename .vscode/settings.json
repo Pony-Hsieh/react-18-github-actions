@@ -1,0 +1,13 @@
+{
+  // 存檔時自動排版
+  "editor.formatOnSave": true,
+  "[html, css, scss, javascript, typescript, typescriptreact, yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+}
