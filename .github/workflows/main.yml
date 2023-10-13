@@ -40,6 +40,9 @@ jobs:
           npm ci
           npm run build
 
+      - name: Copy index.html As 404 Page
+        run: cd ./dist && cp index.html 404.html
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
