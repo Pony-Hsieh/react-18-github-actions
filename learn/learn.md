@@ -120,3 +120,32 @@ error TS2580: Cannot find name 'process'. Do you need to install type definition
 
 
 可以嘗試把 複製 404 的步驟移除，然後看看 router 重新導向會不會出問題
+→ 會
+
+
+
+# 前端開發環境基礎建設
+- 統一開發環境
+  - Docker
+- 統一跨 IDE 的檔案格式設定
+  - .editorconfig
+    - 維護程式碼基底中的一致編碼樣式和設定，例如縮排樣式、索引標籤寬度、行尾字元、編碼等等，不論您使用的編輯器或 IDE 為何
+- 開發時
+  - vs code 套件自動修正
+    - editorconfig
+    - prettier
+    - eslint
+    - stylelint
+- commit 前檢查
+  - husky
+  - lint-staged
+  - prettier
+  - eslint
+  - stylelint
+  - test
+- 檢查 commit message
+  - husky
+  - commitlint
+- ci, cd
+  - github actions
+
